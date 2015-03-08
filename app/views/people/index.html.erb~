@@ -32,5 +32,5 @@
 </page>
 <br>
 
-<h5><%= link_to 'Add Birthday!', new_person_path %></center></h5>
+<h5><%= link_to 'New Person', new_person_path %></center></h5>
 

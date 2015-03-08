@@ -1,0 +1,13 @@
+tbody {
+  text-align:center;
+  font-size: 100%;
+  font-color: black;
+}
+
+h2 {
+  text-align: center;
+  font-color: #341AD7;
+  font-size: 200%;
+h3 {
+  text-align: center;
+}

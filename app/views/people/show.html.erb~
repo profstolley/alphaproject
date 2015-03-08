@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="show.scss">
-
 <p id="notice"><%= notice %></p>
 
 <p>
