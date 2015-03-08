@@ -1,3 +1,69 @@
 // Place all the styles related to the People controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font-stack:   Museo Slab, sans-serif;
+$primary-color: #000000;
+
+
+
+ttitle {
+  font: 100% lucida-console;
+  color: $primary-color;
+  background-color: #2E2EFE;
+}
+
+thead {
+  font: 300% $font-stack;
+  color: $primary-color;
+  background-color: #A09FAC;
+  text-align: center;
+  
+}
+
+tbody {
+  color: $primary-color;
+  background-color: #FFFFFF;
+  font-size: 200%;
+}
+
+table.center { 
+  width: 80%;
+  margin-left: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 500%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+}
+
+h3 {
+  text-align: center;
+  color: #FAFAFD;
+  font-size: 200%;
+}
+
+h4 {
+  text-align: center;
+  font-size: 800%;
+  color: #F10D2F;
+  }
+
+h5 {
+  text-align: center;
+  font-size: 100%;
+  color: #FAFAFD;
+}
+
+h6 {
+  text-align: center;
+  font-size: 200%;
+  font-color: blue;
+}

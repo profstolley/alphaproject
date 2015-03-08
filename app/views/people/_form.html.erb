@@ -1,10 +1,8 @@
-<link rel="stylesheet" href="new.scss">
 
-<h3><%= form_for(@person) do |f| %>
+<%= form_for(@person) do |f| %>
   <% if @person.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@person.errors.count, "error") %> prohibited this person from being saved:</h2>
-
+      <h2><%= pluralize(@person.errors.count, "error") %> prohibited this person from being saved:
       <ul>
       <% @person.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -15,13 +13,14 @@
 
   <div class="field">
     <%= f.label :name %><br>
-  <h3> <%= f.text_field :name %></h3>
+ <%= f.text_field :name %>
   </div>
   <div class="field">
     <%= f.label :birthday %><br>
-   <h3> <%= f.date_select :birthday, :start_year=>1500,:end_year=>Date.today.year %></h3>
+   <%= f.date_select :birthday, :start_year=>1500,:end_year=>Date.today.year %>
+  
   </div>
- <body> <div class="actions">
-   <h3> <%= f.submit %></h3>
-  </div> </body>
+  <div class="actions">
+   <%= f.submit %>
+  </div> 
 <% end %>
