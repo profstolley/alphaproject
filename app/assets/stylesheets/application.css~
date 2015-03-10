@@ -14,6 +14,6 @@
  *= require_self
  */
 
-<div id="main">
-  <%= yield %>
-</div>
+h1 { 
+  font color: #FFFFFF; 
+}

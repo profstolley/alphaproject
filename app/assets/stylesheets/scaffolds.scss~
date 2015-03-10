@@ -3,7 +3,7 @@ body {
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 15px;
 }
 
 p, ol, ul, td {
@@ -16,22 +16,24 @@ pre {
   background-color: #eee;
   padding: 10px;
   font-size: 20px;
+  font-size: #FFFFFF;
 }
 
 a {
-  color: #FFFFFF;
+  color: #666;
   &:visited {
     color: #666;
   }
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: #FF0000;
+    background-color: auto;
   }
 }
 
 div {
   &.field, &.actions {
     margin-bottom: 10px;
+  font-color: #FFFFFF;
   }
 }
 
@@ -67,4 +69,8 @@ div {
     padding-right: 10%;
     padding-left: 10;
   }
+}
+h1 {
+  font-color: #FFFFFF;
+  font-size: 800%;
 }

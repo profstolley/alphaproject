@@ -12,14 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <h2><%= f.label :name %></h2><br>
  <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :birthday %><br>
+    <h2><%= f.label :birthday %></h2><br>
    <%= f.date_select :birthday, :start_year=>1500,:end_year=>Date.today.year %>
-  
+ 
   </div>
+
+
   <div class="actions">
    <%= f.submit %>
   </div> 

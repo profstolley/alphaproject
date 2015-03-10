@@ -1,14 +1,16 @@
+<link rel="stylesheet" href="show.scss">
+
 <p id="notice"><%= notice %></p>
 
-<p>
+<p><center><h2>
   <strong>Name:</strong>
   <%= @person.name %>
-</p>
+</h2></center></p>
 
-<p>
+<p><center><h2>
   <strong>Birthday:</strong>
   <%= @person.birthday %>
-</p>
+</h2></center></p>
 
-<%= link_to 'Edit', edit_person_path(@person) %> |
-<%= link_to 'Back', people_path %>
+<center><h4><%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %></h4></center>

@@ -18,8 +18,10 @@
   <div class="field">
     <%= f.label :birthday %><br>
    <%= f.date_select :birthday, :start_year=>1500,:end_year=>Date.today.year %>
-  <%= date.to_formatted_s(:long_ordinal) %>
+  
   </div>
+
+
   <div class="actions">
    <%= f.submit %>
   </div> 

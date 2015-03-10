@@ -9,20 +9,20 @@ $primary-color: #000000;
 
 ttitle {
   font: 100% lucida-console;
-  color: $primary-color;
+  font-color: #FFFFFF;
   background-color: #2E2EFE;
 }
 
 thead {
   font: 300% $font-stack;
-  color: $primary-color;
+  font-color: #FFFFFF;
   background-color: #A09FAC;
   text-align: center;
   
 }
 
 tbody {
-  color: $primary-color;
+  font-color: #0040FF;
   background-color: #FFFFFF;
   font-size: 200%;
 }
@@ -37,33 +37,35 @@ table.center {
 h1 {
   text-align: center;
   font-size: 500%;
+  font-color: #FFFFFF;
 }
 
 h2 {
   text-align: center;
   font-size: 300%;
+  font-color: #FFFFFF;
 }
 
 h3 {
   text-align: center;
-  color: #FAFAFD;
+  color: #FFFFFFF;
   font-size: 200%;
 }
 
 h4 {
   text-align: center;
-  font-size: 800%;
-  color: #F10D2F;
+  font-size: 150%;
+  color: #FFFFFF;
   }
 
 h5 {
   text-align: center;
   font-size: 100%;
-  color: #FAFAFD;
+  color: #FFFFFF;
 }
 
 h6 {
   text-align: center;
   font-size: 200%;
-  font-color: blue;
+  font-color: FFFFFF;
 }

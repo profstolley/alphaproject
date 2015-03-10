@@ -1,8 +1,9 @@
+
 <p id="notice"><%= notice %></p>
 
+<font-color="#FFFFFF">My Friends' Birthdays</font>
 
-<p>My Friends' Birthdays</p>
-
+<h6><%= link_to 'Add Birthday!', new_person_path %></h6>
 
 <table class="center">
   <thead>
@@ -21,7 +22,7 @@
       <h5> <%= link_to 'Fix', edit_person_path(person) %>
        <%= link_to 'Remove', person, method: :delete, data: { confirm: 'Are you sure?' } %></p></td></h5>
 
-        <td>date.to_formatted_s(:long_ordinal)<%= person.birthday %> </td></tbody>
+        <td><%= person.birthday %> </td></tbody>
 
       </tr>
     <% end %>
@@ -30,5 +31,5 @@
 </page>
 <br>
 
-<h6><%= link_to 'Add Birthday!', new_person_path %></h6>
+
 
