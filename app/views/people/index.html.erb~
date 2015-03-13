@@ -1,7 +1,7 @@
 
 <p id="notice"><%= notice %></p>
 
-<font-color="#FFFFFF">My Friends' Birthdays</font>
+<h1>My Friends' Birthdays</h1>
 
 <h6><%= link_to 'Add Birthday!', new_person_path %></h6>
 
@@ -18,11 +18,11 @@
   <tbody>
     <h4><% @people.each do |person| %></h4>
       <tr>
-        <td><p><%= person.name %>
+        <td><p> <h3><%= person.name %> </h3>
       <h5> <%= link_to 'Fix', edit_person_path(person) %>
        <%= link_to 'Remove', person, method: :delete, data: { confirm: 'Are you sure?' } %></p></td></h5>
 
-        <td><%= person.birthday %> </td></tbody>
+        <h3><td><%= person.birthday %> </td></h3></tbody>
 
       </tr>
     <% end %>

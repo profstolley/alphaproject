@@ -4,5 +4,5 @@
 
  <center><%= render 'form' %></center>
 
-<%= link_to 'Back', people_path %>
+<center><%= link_to 'Back', people_path %></center>
 </page>

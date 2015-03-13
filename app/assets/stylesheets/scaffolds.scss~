@@ -1,6 +1,6 @@
 body {
   background-color: #0A0A2A;
-  color: #333;
+  color: #FFFFFF;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 15px;
@@ -20,9 +20,9 @@ pre {
 }
 
 a {
-  color: #666;
+  color: #FF0000;
   &:visited {
-    color: #666;
+    color: #FF0000;
   }
   &:hover {
     color: #FF0000;
@@ -71,6 +71,9 @@ div {
   }
 }
 h1 {
-  font-color: #FFFFFF;
-  font-size: 800%;
+font-size: 700%;
+}
+h2 {
+font-size: 200%;
+font-color: #0A0A2A;
 }

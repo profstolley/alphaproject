@@ -18,11 +18,11 @@
   <tbody>
     <h4><% @people.each do |person| %></h4>
       <tr>
-        <td><p><%= person.name %>
+        <td><p> <h3><%= person.name %> </h3>
       <h5> <%= link_to 'Fix', edit_person_path(person) %>
        <%= link_to 'Remove', person, method: :delete, data: { confirm: 'Are you sure?' } %></p></td></h5>
 
-        <td><%= person.birthday %> </td></tbody>
+        <td><h3><%= person.birthday %></h3> </td></tbody>
 
       </tr>
     <% end %>
